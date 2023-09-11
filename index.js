@@ -5,7 +5,7 @@ const todoRoutes = require("./todoRoutes");
 const server = express();
 
 const corsOptions = {
-  origin: "http://localhost:4100",
+  origin: "https://todo-api-johi.onrender.com",
   methods: ["GET", "POST"],
 };
 
